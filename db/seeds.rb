@@ -5,3 +5,7 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+spot1=Spot.create(name:"sillon", address:"pleubian")
+spot2=Spot.create(name:"Bleuets", address:"Saint-brieuc")
+
