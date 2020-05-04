@@ -1,0 +1,9 @@
+<h1>Description</h1>
+
+<%= @spot.name %>
+<%= @spot.adress %>
+<%= params %>
+
+<%= link_to "back to spots", spots_path %>
+<%= link_to "Edit", edit_spot_path(@spot) %>
+<%= link_to "Destroy", @spot, method: :delete, data: { confirm: "Are you sure?" } %>
